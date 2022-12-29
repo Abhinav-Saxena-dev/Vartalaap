@@ -1,0 +1,65 @@
+.user-profile{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+
+    .identity-box{
+        border: 1px solid black;
+        height: 100%;
+        width: 60%;
+        display: flex;
+        justify-content: center;
+
+        .identity{
+            border: 1px solid black;
+            height: 50%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+
+            .image-box{
+                border: 1px solid black;
+                border-radius: 50%;
+                overflow: hidden;
+                height: 40%;
+                width: 23%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .name-box{
+                // border: 1px solid black;
+                height: 25%;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .name{
+                    font-size: 3vw;
+                }
+            }
+
+            .number-follow-box{
+
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                height: 25%;
+                width: 100%;
+                // border: 1px solid black;
+
+                .follow-button-box{}
+
+                .followers-box{
+                    .number-followers{
+                        font-size: 2.3vw;
+                    }
+                }
+            }
+        }
+    }
+}
